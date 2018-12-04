@@ -157,6 +157,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalosporin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalosporin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalosporin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalosporin"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalosporin -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalosporin">
@@ -168,6 +200,14 @@
     <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Lincosamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Lincosamide">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
     </owl:Class>
     
@@ -216,18 +256,354 @@
     
 
 
-    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#penicillinG -->
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Amikacin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#penicillinG">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Amikacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aminoglycoside"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Azithromycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Azithromycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Macrolide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aztreonam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aztreonam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Monobactam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefazolin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefazolin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefepime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefepime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefotaxime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefotaxime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefotetan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefotetan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefoxitin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cefoxitin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ceftazidime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ceftazidime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ceftriaxone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ceftriaxone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalexin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalexin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#CephGen1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ciprofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ciprofloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Clarithromycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Clarithromycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Macrolide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#ClavulanicAcid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#ClavulanicAcid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#BetaLactamaseInhibitor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Clindamycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Clindamycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Lincosamide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Doripenem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Doripenem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Carbapenem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Doxycycline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Doxycycline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tetracycline"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Enofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Enofloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ertapenem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ertapenem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Carbapenem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Erythromycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Erythromycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Macrolide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Gatifloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Gatifloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Gentamicin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Gentamicin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aminoglycoside"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Imipenem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Imipenem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Carbapenem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Levofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Levofloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Linezolid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Linezolid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Meropenem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Meropenem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Carbapenem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Methecillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Methecillin">
         <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#penicillinVK -->
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Metronidazole -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#penicillinVK">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Metronidazole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Minocycline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Minocycline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tetracycline"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Moxifloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Moxifloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Nafcillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Nafcillin">
         <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Neomycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Neomycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aminoglycoside"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Ofloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Oxacillin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Oxacillin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#PenicillinG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#PenicillinG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#PenicillinVK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#PenicillinVK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Rifampin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Rifampin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Streptomycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Streptomycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aminoglycoside"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Sulbactam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Sulbactam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#BetaLactamaseInhibitor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tazobactam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tazobactam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#BetaLactamaseInhibitor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tetracycline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tetracycline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tetracycline"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tobramycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tobramycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aminoglycoside"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#TrimethoprimSulfamethoxazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#TrimethoprimSulfamethoxazole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Vancomycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Vancomycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
