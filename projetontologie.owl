@@ -7,6 +7,23 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotics"/>
 </rdf:RDF>
 
 
