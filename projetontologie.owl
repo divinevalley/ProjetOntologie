@@ -13,6 +13,104 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsCellWall -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsCellWall">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsDNAsynth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsDNAsynth">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsFolicAcidSynth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsFolicAcidSynth">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsProteinSynth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsProteinSynth">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsRNAsynth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsRNAsynth">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsRibosome30S -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsRibosome30S">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsProteinSynth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsRibosome50S -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsRibosome50S">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#disruptsProteinSynth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#hasBacteriocidalEffects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#hasBacteriocidalEffects">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#hasBacteriostaticEffects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#hasBacteriostaticEffects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#hasBacteriostaticEffects">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targetedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targetedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#targets"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -21,9 +119,116 @@
     
 
 
-    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotics -->
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aminoglycoside -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotics"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Aminoglycoside">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Bacteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Bacteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Bacteria"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#BetaLactamaseInhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#BetaLactamaseInhibitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Carbapenem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Carbapenem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalosporin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Cephalosporin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Fluoroquinolone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Macrolide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Macrolide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Monobactam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Monobactam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tetracycline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Tetracycline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Antibiotic"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#penicillinG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#penicillinG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#penicillinVK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#penicillinVK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/deanna/ontologies/2018/11/untitled-ontology-3#Penicillin"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
